@@ -111,11 +111,11 @@ body {
 
 @media (max-width: 768px) {
   #header-logo {
-    top: 30px; /* kembalikan ke layar */
+    top: 40px; /* kembalikan ke layar */
   }
 
   #header-logo img {
-    height: 1000px;
+    height: 300px;
     transform: scale(5);
   }
 }
