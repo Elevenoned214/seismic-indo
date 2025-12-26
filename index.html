@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEISMIC INDONESIA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="Magnitude-loader"></div>
+            <p>SEISMIC INDONESIA</p>
+        </div>
+    </div>
+
+    <!-- Header Logo SEISMIC INDONESIA -->
+<div id="header-logo">
+    <img src="assets/logos/seismic-logo.png" alt="SEISMIC INDONESIA" crossorigin="anonymous">
+</div>
+        <!-- EDIT: Ganti path "assets/logos/seismic-logo.png" dengan logo Anda -->
+    </div>
+
+    <!-- File Icons (Top Right) -->
+    <div id="file-icons">
+        <a href="https://www.seismic.systems/" target="_blank" class="file-icon" title="web seismic">
+            <div class="folder-icon">
+                <img src="assets/icons/logo1.jpeg" alt="File 1" class="icon-logo" crossorigin="anonymous">
+            </div>
+        </a>
+        <a href="https://x.com/SeismicSys" target="_blank" class="file-icon" title="X seismic">
+            <div class="folder-icon">
+                <img src="assets/icons/logo2.jpeg" alt="File 2" class="icon-logo" crossorigin="anonymous">
+            </div>
+        </a>
+        <a href="https://discord.gg/seismic" target="_blank" class="file-icon" title="discord seismic">
+            <div class="folder-icon">
+                <img src="assets/icons/logo3.jpeg" alt="File 3" class="icon-logo" crossorigin="anonymous">
+            </div>
+        </a>
+        <!-- EDIT: 
+        1. Ganti href="https://..." dengan URL tujuan
+        2. Ganti src="assets/icons/logoX.png" dengan logo Anda
+        3. Logo akan muncul di tengah folder icon
+        -->
+    </div>
+
+    <!-- Search User (Bottom Center) -->
+    <div id="search-container">
+        <input type="text" id="search-user" placeholder="Search user..." />
+        <button id="search-btn">Search</button>
+    </div>
+
+    <!-- Credits (Bottom Left) -->
+    <div id="credits">
+        <p>Built by <a href="https://x.com/0xElv214" target="_blank">@Elevenoned</a></p>
+        <p>Supported by <a href="https://x.com/SeismicsysIDN" target="_blank">@Seismicindonesia</a></p>
+        <!-- EDIT: Ganti href dan username sesuai kebutuhan -->
+    </div>
+
+    <!-- Main Container -->
+    <div id="container"></div>
+
+    <!-- Search Result Card (appears without modal) -->
+    <div id="search-result" class="hidden">
+        <!-- Will be populated by JavaScript -->
+    </div>
+
+    <!-- Member Modal -->
+    <div id="member-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="close-btn" id="close-modal">&times;</button>
+            <div id="member-container">
+                <h2 id="modal-title"></h2>
+                <div id="member-grid"></div>
+                <div id="pagination-controls">
+                    <button id="prev-page" class="page-btn">◄ Previous</button>
+                    <span id="page-info">Page 1 of 1</span>
+                    <button id="next-page" class="page-btn">Next ►</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/orbit.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

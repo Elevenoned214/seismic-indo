@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.log
+*.tmp
+.cache/
+
+# Optional: Uncomment if you don't want to commit assets
+# assets/members/*.jpg
+# assets/members/*.png
