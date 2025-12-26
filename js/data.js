@@ -18,7 +18,7 @@ const allMembers = [
 { nama: "Agata25", foto: "assets/members/Agata25.jpg", akunX: "https://x.com/agataafck", Magnitude: 8 },
 { nama: "Asu", foto: "assets/members/Asu.jpg", akunX: "https://x.com/LastButterfly21", Magnitude: 8 },
 { nama: "Dzulfan", foto: "assets/members/Dzulfan.jpg", akunX: "https://x.com/dzulfanfajriiii", Magnitude: 8 },
-{ nama: "Irsyad Encrypted", foto: "assets/members/irsyad encrypted.jpg", akunX: "https://x.com/irsyadibadnurul", Magnitude: 8 },
+{ nama: "Irsyad Encrypted", foto: "assets/members/Irsyad encrypted.jpg", akunX: "https://x.com/irsyadibadnurul", Magnitude: 8 },
 { nama: "Jamp", foto: "assets/members/Jamp.jpg", akunX: "https://x.com/0xjamp", Magnitude: 8 },
 { nama: "Kazam", foto: "assets/members/Kazam.jpg", akunX: "https://x.com/kazam_97", Magnitude: 8 },
 { nama: "Kittz", foto: "assets/members/Kittz.jpg", akunX: "https://x.com/kittzz76", Magnitude: 8 },
