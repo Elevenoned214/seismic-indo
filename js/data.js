@@ -212,7 +212,8 @@ const allMembers = [
 { nama: "Pablo", foto: "assets/members/Pablo.jpg", akunX: "https://x.com/shithappens90s?t=2xEKMIn-h-AWSE_v-ZwDYQ&s=09", Magnitude: 1 },
 { nama: "wezz", foto: "assets/members/wezz.jpg", akunX: "https://x.com/Wellfritzz", Magnitude: 1 },
 { nama: "sublime", foto: "assets/members/sublime.jpg", akunX: "https://x.com/subdrop22", Magnitude: 8 },
-
+{ nama: "Boyy", foto: "assets/members/Boyy.jpg", akunX: "https://x.com/RanggaPrt_", Magnitude: 3 },
+{ nama: "Quella peace", foto: "assets/members/QuellaPeace.jpg", akunX: "https://x.com/Quellapeacee/photo", Magnitude: 8 },
 
 
 
