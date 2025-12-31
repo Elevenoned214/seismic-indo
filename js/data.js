@@ -216,6 +216,7 @@ const allMembers = [
 { nama: "Quella peace", foto: "assets/members/QuellaPeace.jpg", akunX: "https://x.com/Quellapeacee/photo", Magnitude: 8 },
 { nama: "Fonk", foto: "assets/members/Fonk.jpg", akunX: "https://x.com/RajindraAzharia", Magnitude: 4 },
 { nama: "kuuko", foto: "assets/members/kuuko.png", akunX: "https://x.com/dosenwebtri", Magnitude: 3 },
+{ nama: "Aska", foto: "assets/members/Aska.png", akunX: "https://x.com/Aska0x", Magnitude: 5 },
 
 
 
